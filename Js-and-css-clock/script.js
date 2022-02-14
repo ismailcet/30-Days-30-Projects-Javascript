@@ -10,8 +10,6 @@ function getDate(){
    
 
     const min=date.getMinutes();
-    const abc=((second/60)*6 +90);
-    console.log(abc);
     const minDegree=((min / 60) *360) +((second/60)*6 +90);
     minHand.style.transform=`rotate(${minDegree}deg)`;
 
