@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffc600;
+}
+.inbox {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.item input {
+  margin: 20px;
+}
+input:checked + p {
+  background-color: #f9f9f9;
+  text-decoration: line-through;
+}
+p {
+  margin: 0;
+  padding: 20px;
+  transition: background 0.2s;
+  font-family: "helvetica neue";
+  font-size: 20px;
+  font-weight: 200;
+  border-left: 1px solid #d1e2ff;
+}
