@@ -1,5 +1,5 @@
 const checkBoxes=document.querySelectorAll('.inbox input[type="checkbox"]');
-
+const item=document.querySelector('.item');
 let lastChecked;
 
 function changeBox(e){
