@@ -70,7 +70,7 @@
     const wes = {
       name: 'Wes',
       age: 100,
-      social: {
+      social:{
         twitter: '@wesbos',
         facebook: 'wesbos.developer'
       }
