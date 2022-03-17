@@ -21,7 +21,6 @@ function checkSlide(e){
     console.log(slideInAt)     
     
     const imageBottom=sliderImage.offsetTop + sliderImage.height;
-
     const isHalfShown=slideInAt > sliderImage.offsetTop;
     const isNotScrolledPast=window.scrollY < imageBottom;
 
